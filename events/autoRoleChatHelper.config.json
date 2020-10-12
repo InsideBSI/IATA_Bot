@@ -1,0 +1,130 @@
+{
+	"discordServerID": "",
+	"msgTriggerId": "",
+	"chansRefs": {
+		"1chansRefs": { "P": "", "T": "", "Q": "" },
+		"2chansRefs": { "P": "", "T": "", "Q": "" },
+		"3chansRefs": { "P": "", "T": "", "Q": "" },
+		"4chansRefs": { "P": "", "T": "", "Q": "" },
+		"5chansRefs": { "P": "", "T": "", "Q": "" },
+		"6chansRefs": { "P": "", "T": "", "Q": "" },
+		"7chansRefs": { "P": "", "T": "", "Q": "" }
+	},
+	"speOpts": {
+		"3": { "T": ["Sa", "AG", "Art", "ArPa"], "Q": ["IG", "Mt", "IB", "TA"], "P": ["Hor", "Imp", "Bois", "Bij", "Art"] },
+		"4": { "T": [], "P": [], "Q": [] },
+		"5": { "T": [], "P": [], "Q": [] },
+		"6": { "T": [], "P": [], "Q": [] },
+		"7": { "T": [], "P": [], "Q": [] }
+	},
+	"message": {
+		"color": "#a1d85b",
+		"title": "**__WELCOME__**\n➖➖➖➖➖➖➖➖➖➖",
+		"description": "Salut, je suis le bot de l'I.A.T.A et je vais t'aider à choisir ta classe\n\n<a:warn:759790308250222634> Attention, attends à chaque fois que toutes les réactions soient mises avant d'en choisir une ... c'est très important, j'ai besoin d'un peu de temps pour te donner les bonnes infos et trier celles que tu me donnes ;))",
+		"thumbnail": "https://cutt.ly/BOT-IATA",
+		"emojis": {
+			"S": "<:Steiner:760840796483747880>",
+			"P": "<:Classes:760612294820102174>",
+			"A": "<:ancien:759542300333834300>"
+		},
+		"fields": {
+			"S": " - **Steiner**",
+			"P": " - **Autre**",
+			"A": " - **Ancien**"
+		},
+		"nextMessages": {
+			"S": {
+				"color": "#a1d85b",
+				"title": "**__SECOND STEP__**\n➖➖➖➖➖➖➖➖➖➖",
+				"description": "<:Gaming_bot:760850210670379008> [SSSSSSSSSSSSSSSSS] Super, tu as réussis la première étape, ... continues maintenant et choisis la réaction qui correspond à l'année dans laquelle tu es.",
+				"thumbnail": "https://cutt.ly/BOT-IATA",
+				"emojis": {
+					"1": "<:1e:757206153058058340>",
+					"2": "<:2e:757206153221373962>",
+					"3": "<:3e:757206153456517130>",
+					"4": "<:4e:757206153091612823>",
+					"5": "<:5e:757206153200664598>",
+					"6": "<:6e:757206153716432917>"
+				},
+				"fields": {
+					"1": " - **1**",
+					"2": " - **2**",
+					"3": " - **3**",
+					"4": " - **4**",
+					"5": " - **5**",
+					"6": " - **6**"
+				},
+				"nextMessages": {
+					"1": ["A", "B", "C"],
+					"2": ["A", "B", "C"],
+					"3": ["A", "B", "C"],
+					"4": ["A", "B"],
+					"5": ["A", "B", "C"],
+					"6": ["A", "B", "C"],
+					"then": {
+						"color": "#a1d85b",
+						"title": "**__THIRD STEP__**\n➖➖➖➖➖➖➖➖➖➖",
+						"description": "<:Dance_bot:760850209831649320> À présent choisis entre...",
+						"thumbnail": "https://cutt.ly/BOT-IATA",
+						"emojis": {
+							"S": "<:transition:756253518397964468>",
+							"P": "<:qualification:756253517932658830>",
+							"A": "<:professionnel:756253518196899980>"
+						},
+						"fields": {
+							"T": " - **Transition**",
+							"Q": " - **Qualification**",
+							"P": " - **Professionnel**"
+						}
+					}
+				}
+			},
+			"P": {
+				"color": "#a1d85b",
+				"title": "**__SECOND STEP__**\n➖➖➖➖➖➖➖➖➖➖",
+				"description": "<:Gaming_bot:760850210670379008> [PPPPPPPPPPPPPPPP] Super, tu as réussis la première étape, ... continues maintenant et choisis la réaction qui correspond à l'année dans laquelle tu es.",
+				"thumbnail": "https://cutt.ly/BOT-IATA",
+				"emojis": {
+					"1": "<:1e:757206153058058340>",
+					"2": "<:2e:757206153221373962>",
+					"3": "<:3e:757206153456517130>",
+					"4": "<:4e:757206153091612823>",
+					"5": "<:5e:757206153200664598>",
+					"6": "<:6e:757206153716432917>"
+				},
+				"fields": {
+					"1": " - **1**",
+					"2": " - **2**",
+					"3": " - **3**",
+					"4": " - **4**",
+					"5": " - **5**",
+					"6": " - **6**"
+				},
+				"nextMessages": {
+					"1": ["A", "B", "C"],
+					"2": ["A", "B", "C"],
+					"3": ["A", "B", "C"],
+					"4": ["A", "B", "C"],
+					"5": ["A", "B", "C"],
+					"6": ["A", "B", "C"],
+					"then": {
+						"color": "#a1d85b",
+						"title": "**__THIRD STEP__**\n➖➖➖➖➖➖➖➖➖➖",
+						"description": "<:Dance_bot:760850209831649320> À présent choisis entre...",
+						"thumbnail": "https://cutt.ly/BOT-IATA",
+						"emojis": {
+							"S": "<:transition:756253518397964468>",
+							"P": "<:qualification:756253517932658830>",
+							"A": "<:professionnel:756253518196899980>"
+						},
+						"fields": {
+							"T": " - **Transition**",
+							"Q": " - **Qualification**",
+							"P": " - **Professionnel**"
+						}
+					}
+				}
+			}
+		}
+	}
+}
