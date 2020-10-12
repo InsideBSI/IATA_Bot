@@ -1,0 +1,20 @@
+{
+  "name": "iata-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "discord.js-commando": "github:discordjs/Commando",
+    "dotenv": "^8.2.0",
+    "lowdb": "^1.0.0",
+    "random-puppy": "^1.1.0",
+    "simple-youtube-api": "^5.2.1",
+    "ytdl-core": "^3.3.0"
+  }
+}
